@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{ 
+    height: 150vh;
+    background: linear-gradient(to bottom, red, white);
+}
+
+
+.title{
+    max-width: 700px; 
+    padding-top: 40px;
+    margin: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+h1{
+    align-content: center;
+    font-size: 80px;
+    color: white;
+    text-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.count{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.flex-container{
+    padding-top: 20px;
+    width: 100%; 
+    height: auto; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-box{
+    width: 250px; 
+    height: 250px; 
+    background: white; 
+    color: black; 
+    font-size: 25px;
+    text-align: center; 
+    border-radius: 20px; 
+    margin: 10px; 
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    margin-left: 30px; 
+    margin-right: 30px;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box img {
+    max-width: 80%;
+    height: auto;
+}
+
+.flex-box p {
+    margin-top: 5px;
+
+}
+
+.flex-box:hover {
+    width: 270px;
+    height: 270px;
+}
+
+.replenishButton {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnR {
+    background-color: #67120c; /* Red background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition-duration: 0.4s; /* Transition effect */
+    margin-top: 20px;
+    
+}
+
+.btnR:hover {
+    background-color: white; 
+    color: black; 
+}
+
+
+.dispenseButton {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btnD {
+    background-color: #096011; /* Red background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition-duration: 0.4s; /* Transition effect */
+    margin-top: 20px;
+    
+}
+
+.btnD:hover {
+    background-color: white; 
+    color: black; 
+}
